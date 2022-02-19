@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
-
+using System.Text;
 
 namespace _303_BigO
 {
@@ -15,65 +15,52 @@ namespace _303_BigO
             var testInput = Enumerable.Range(0, 10_000).ToArray();
             /* var testInput = Enumerable.Range(0, 100_000).ToArray(); */
 
-            {
-                var stopWatch = new Stopwatch();
-                stopWatch.Start();
-                GetSafe(testInput, 0);
-                stopWatch.Stop();
-                Console.WriteLine($"Finished GetRandom: {stopWatch.Elapsed}");
-            }
-
-            {
-                var stopWatch = new Stopwatch();
-                stopWatch.Start();
-                SumArray(testInput);
-                stopWatch.Stop();
-                Console.WriteLine($"Finished SumArray: {stopWatch.Elapsed}");
-            }
-
-            {
-                var stopWatch = new Stopwatch();
-                stopWatch.Start();
-                SumNested(testInput);
-                stopWatch.Stop();
-                Console.WriteLine($"Finished SumNested: {stopWatch.Elapsed}");
-            }
+            SpaceAnalysis(testInput);
 
             Console.ReadKey();
         }
 
-        static int GetSafe(int[] arr, int index)
+        private static void SpaceAnalysis(int[] testInput)
         {
-            if (index >= 0 && index < arr.Length)
             {
-                return arr[index];
+                var beforeMemory = GC.GetTotalMemory(true);
+                StringJoin(testInput);
+                var afterMemory = GC.GetTotalMemory(false);
+                Console.WriteLine($"Finished String Joing: {afterMemory - beforeMemory}");
             }
-            return -1;
+
+            {
+                var beforeMemory = GC.GetTotalMemory(true);
+                ContainsRepeatingNumber(testInput);
+                var afterMemory = GC.GetTotalMemory(false);
+                Console.WriteLine($"Finished ContainsRepeatingNumber: {afterMemory - beforeMemory}");
+            }
         }
 
-        static int SumArray(int[] arr)
+        static string StringJoin(int[] arr)
         {
-            var result = 0;
-            for (int i = 0; i < arr.Length; i++)
+            var stringBuilder = new StringBuilder(2 * arr.Length - 1);
+            for (int i = 0; i < arr.Length - 1; i++)
             {
-                result += arr[i];
+                stringBuilder.Append(arr[i]);
+                stringBuilder.Append(',');
             }
-            return result;
+            stringBuilder.Append(arr[arr.Length - 1]);
+            return stringBuilder.ToString();
         }
 
-        static int SumNested(int[] arr)
+        static bool ContainsRepeatingNumber(int[] arr)
         {
-            var result = 0;
+            var set = new HashSet<int>(arr.Length);
             for (int i = 0; i < arr.Length; i++)
             {
-                result += i;
-                for (int j = 0; j < arr.Length; j++)
+                if (set.Contains(arr[i]))
                 {
-                    result += j;
+                    return true;
                 }
+                set.Add(arr[i]);
             }
-
-            return result;
+            return false;
         }
     }
 }
