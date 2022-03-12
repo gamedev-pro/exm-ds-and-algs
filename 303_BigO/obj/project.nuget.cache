@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "wraQzVnX6TLpcjmcSDFz6YX5rlt0DdXnBSs8KJjVw0VNRyLv8aAXN6y3K6N9zI6YaWRFjYbL0gAMEtLveD/hKw==",
+  "dgSpecHash": "6a5F5HvWaNHjS0z5qiodnqbXC9IMp8za0CfMwDv5S1x8wHjiH/eKSnfaHyfUyYqhUa5vD8HK/68hG9zcR8utdw==",
   "success": true,
   "projectFilePath": "C:\\dev\\src\\github.com\\gamedev-pro\\exm-ds-and-algs\\303_BigO\\303_BigO.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\gabri\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+    "C:\\Users\\gabri\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.14\\microsoft.netcore.app.host.win-x64.5.0.14.nupkg.sha512"
   ],
   "logs": []
 }
