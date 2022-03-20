@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "307_BigONotations/1.0.0": {
+        "runtime": {
+          "307_BigONotations.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "307_BigONotations/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
