@@ -1,10 +1,17 @@
-﻿// T: O(1), S: O(1)
+<p align="center"><img height="35" width="auto" src="logo_black.png"></p>
+
+# Desafio: Análise Big O
+
+```c#
+// T: O(1), S: O(1)
 int SumRandom(int[] a, int[] b)
 {
     var rnd = new Random();
     return a[rnd.Next(0, a.Length)] + b[rnd.Next(0, b.Length)];
 }
+```
 
+```c#
 // T: O(N), S: O(1)
 void MultiplyArray(int[] arr)
 {
@@ -12,9 +19,10 @@ void MultiplyArray(int[] arr)
     {
         arr[i] *= arr[i];
     }
-    System.Math.Min()
 }
+```
 
+```c#
 // T: O (log N), S: O(1)
 void SplitSum(int n)
 {
@@ -25,7 +33,10 @@ void SplitSum(int n)
         i /= 2;
     }
 }
+```
+<div style="page-break-after: always;"></div>
 
+```c#
 // T: O (n^2), S: O(1)
 int SumNested(int n)
 {
@@ -41,7 +52,9 @@ int SumNested(int n)
     }
     return a;
 }
+```
 
+```c#
 // T: O (n + m), S: O(1)
 int RandomSumTwoArrays(int n, int m)
 {
@@ -57,7 +70,11 @@ int RandomSumTwoArrays(int n, int m)
     }
     return a + b;
 }
+```
 
+<div style="page-break-after: always;"></div>
+
+```c#
 // T: O (log N), S: O(1)
 int FindElementIndexInSortedArray(int[] arr, int searchElement)
 {
@@ -88,8 +105,9 @@ int FindElementIndexInSortedArray(int[] arr, int searchElement)
     return arr[start] == searchElement ? start :
         arr[end] == searchElement ? end : -1;
 }
-
-// T: O(n), S: O(n)
+```
+```c#
+// T: O(n), S: O(1)
 int FindFirstIndexOfNumber(int number, int[] array)
 {
     for (var i = 0; i < array.Length; i++)
@@ -101,11 +119,15 @@ int FindFirstIndexOfNumber(int number, int[] array)
     }
     return -1;
 }
+```
 
+<div style="page-break-after: always;"></div>
+
+```c#
 // T: O(n), S: O(n)
 int[] FindEachIndexOfNumber(int number, int[] array)
 {
-    var arrayOfIndexes = new List<int>();
+    var arrayOfIndexes = new List<int>(array.Length);
     for (int i = 0; i < array.Length; i++)
     {
         var element = array[i];
@@ -116,12 +138,14 @@ int[] FindEachIndexOfNumber(int number, int[] array)
     }
     return arrayOfIndexes.ToArray();
 }
+```
 
-
+```c#
 // T: O(n*m), S: O(n)
 int[] ReturnDupes(int[] array1, int[] array2)
 {
-    var dupeArray = new List<int>();
+    var size = System.Math.Max(array.Length, array2.Length);
+    var dupeArray = new List<int>(size);
     foreach (var element in array1)
     {
         if (array2.Contains(element))
@@ -131,7 +155,10 @@ int[] ReturnDupes(int[] array1, int[] array2)
     }
     return dupeArray.ToArray();
 }
+```
+<div style="page-break-after: always;"></div>
 
+```c#
 // T: O(n^2), S: O(1)
 void SortByValue(int[] array)
 {
@@ -157,3 +184,7 @@ void SortByValue(int[] array)
         count++;
     }
 }
+```
+<p align="center" position="fixed" bottom="0">
+<img height="35" width="auto" src="logo_black.png">
+</p>
