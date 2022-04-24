@@ -1,6 +1,6 @@
 ﻿using AlgTester.API;
 
 {
-    var s = RemoveDupesLinkedListChallenge.RemoveDupesLinkedList;
+    var s = BalancedBracketsChallenge.BalancedBrackets;
     SolutionTester.New().WithSolution(s).Run();
 }
