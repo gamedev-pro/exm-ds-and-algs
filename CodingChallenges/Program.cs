@@ -1,6 +1,6 @@
 ﻿using AlgTester.API;
 
 {
-    var s = BalancedBracketsChallenge.BalancedBrackets;
+    var s = NumberOfRecentCallsChallenge.NumberOfRecentCalls;
     SolutionTester.New().WithSolution(s).Run();
 }
