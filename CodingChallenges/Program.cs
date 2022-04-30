@@ -1,11 +1,6 @@
 ﻿using AlgTester.API;
 
 {
-    var s = TwoSumChallenge.TwoSum;
-    SolutionTester.New().WithSolution(s).Run();
-}
-
-{
-    var s = FirstNonRepeatingCharacterChallenge.FirstNonRepeatingCharacter;
+    var s = NumberOfRecentCallsChallenge.NumberOfRecentCalls;
     SolutionTester.New().WithSolution(s).Run();
 }
