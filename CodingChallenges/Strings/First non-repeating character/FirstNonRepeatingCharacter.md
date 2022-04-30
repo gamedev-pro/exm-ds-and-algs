@@ -22,4 +22,4 @@ Output: 1 (b é o primeiro caracter que não se repete)
 ## Dicas
 
 - Qual é a forma mais simples de resolver esse problema, mesmo que não tenha a melhor performance?
-- Pesquise sobre HashSet em C#
+- Pesquise sobre Dictionary em C#
