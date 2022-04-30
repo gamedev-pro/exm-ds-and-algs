@@ -1,0 +1,16 @@
+C:\dev\src\github.com\gamedev-pro\exm-ds-and-algs\316_LinkedLists\322_Dictionary\obj\Debug\net5.0\322_Dictionary.csproj.AssemblyReference.cache
+C:\dev\src\github.com\gamedev-pro\exm-ds-and-algs\316_LinkedLists\322_Dictionary\obj\Debug\net5.0\322_Dictionary.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\src\github.com\gamedev-pro\exm-ds-and-algs\316_LinkedLists\322_Dictionary\obj\Debug\net5.0\322_Dictionary.AssemblyInfoInputs.cache
+C:\dev\src\github.com\gamedev-pro\exm-ds-and-algs\316_LinkedLists\322_Dictionary\obj\Debug\net5.0\322_Dictionary.AssemblyInfo.cs
+C:\dev\src\github.com\gamedev-pro\exm-ds-and-algs\316_LinkedLists\322_Dictionary\obj\Debug\net5.0\322_Dictionary.csproj.CoreCompileInputs.cache
+C:\dev\src\github.com\gamedev-pro\exm-ds-and-algs\316_LinkedLists\322_Dictionary\bin\Debug\net5.0\322_Dictionary.exe
+C:\dev\src\github.com\gamedev-pro\exm-ds-and-algs\316_LinkedLists\322_Dictionary\bin\Debug\net5.0\322_Dictionary.deps.json
+C:\dev\src\github.com\gamedev-pro\exm-ds-and-algs\316_LinkedLists\322_Dictionary\bin\Debug\net5.0\322_Dictionary.runtimeconfig.json
+C:\dev\src\github.com\gamedev-pro\exm-ds-and-algs\316_LinkedLists\322_Dictionary\bin\Debug\net5.0\322_Dictionary.runtimeconfig.dev.json
+C:\dev\src\github.com\gamedev-pro\exm-ds-and-algs\316_LinkedLists\322_Dictionary\bin\Debug\net5.0\322_Dictionary.dll
+C:\dev\src\github.com\gamedev-pro\exm-ds-and-algs\316_LinkedLists\322_Dictionary\bin\Debug\net5.0\322_Dictionary.pdb
+C:\dev\src\github.com\gamedev-pro\exm-ds-and-algs\316_LinkedLists\322_Dictionary\obj\Debug\net5.0\322_Dictionary.dll
+C:\dev\src\github.com\gamedev-pro\exm-ds-and-algs\316_LinkedLists\322_Dictionary\obj\Debug\net5.0\refint\322_Dictionary.dll
+C:\dev\src\github.com\gamedev-pro\exm-ds-and-algs\316_LinkedLists\322_Dictionary\obj\Debug\net5.0\322_Dictionary.pdb
+C:\dev\src\github.com\gamedev-pro\exm-ds-and-algs\316_LinkedLists\322_Dictionary\obj\Debug\net5.0\322_Dictionary.genruntimeconfig.cache
+C:\dev\src\github.com\gamedev-pro\exm-ds-and-algs\316_LinkedLists\322_Dictionary\obj\Debug\net5.0\ref\322_Dictionary.dll
